@@ -1,0 +1,9 @@
+# Ignore virtual environment
+env/
+
+# Ignore Git directory (this is usually ignored automatically)
+.git/
+
+# Ignore Python bytecode and cache folders
+__pycache__/
+*.pyc
