@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-90mqxts*rgwbi@^h)gq36ok!qk@o5=f(cv$xud+z4a5++qo(!u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['portfolio39.pythonanywhere.com']
+ALLOWED_HOSTS = ['portfolio39.pythonanywhere.com', '127.0.0.1', 'localhost']
+
 
 # Application definition
 INSTALLED_APPS = [
@@ -113,6 +114,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
